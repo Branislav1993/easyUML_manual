@@ -1,3 +1,4 @@
-# My Awesome Book
+# easyUML NetBeans IDE plugin
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+**easyUML** is a UML diagram tool for NetBeans that provides features to easily create and work with UML diagrams. Currently it supports only class diagrams providing drag-and-drop visual editor for diagram drawing, Java code generation from diagrams and reverse engineering to create class diagrams from Java code. It is suitable for teaching software design.
