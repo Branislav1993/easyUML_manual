@@ -17,31 +17,31 @@
 
 ## dom4j
 
-Used for serialization of models into XML and vice versa.
+It is used for serialization of models into XML and vice versa.
 
 ## JavaParser
 
-It creates AST tree from JAVA code.
+It is used to create AST tree from JAVA code.
 
 ## UMLCodeGenerator
 
-It can generate code from Class Diagram.
+It is used to generate code from the Class Diagram.
 
 ## UMLExplorer
 
-It is used for synchronization between Class Diagram and navigator windows in the NetBeans IDE. 
+It is used for synchronization between Class Diagram and navigator window in the NetBeans IDE. 
 
 ## UMLFileTypes
 
-Associations with file types in NetBeans IDE.
+It is used for the associations with file types in NetBeans IDE.
 
 ## UMLModel
 
-Whole conceptual model of UML 2.0. Class Diagram.
+It contains whole conceptual model of UML 2.0. Class Diagram.
 
 ## UMLProjectType
 
-Associations with project extensions in NetBeans IDE.
+It is used for the associations with project extensions in NetBeans IDE.
 
 ## UMLReverseEngineering
 
