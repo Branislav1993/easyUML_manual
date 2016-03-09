@@ -55,4 +55,6 @@ It is used for visual representation of Class Diagram.
 
 It represents a bundle of other modules to build an easyUML plugin.
 
+To learn more about NetBeans platform and module system, please follow [this link](https://netbeans.org/kb/trails/platform.html).
+
 
