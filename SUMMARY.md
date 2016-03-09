@@ -5,4 +5,4 @@
 * [Project overview](chapter1.1.md)
 * [How to contribute](contribute.md)
 * [License](license.md)
-*  [Credits](credits.md)
+* [Credits](credits.md)
