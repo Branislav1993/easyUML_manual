@@ -21,7 +21,7 @@ Congratulations, you have cloned the remote repository by using NetBeans IDE!
 
 Now, in ```Projects``` section, you can see all of the modules for the easyUML plugin.
 
-11. Now, you should ```Right Click``` on UML project, it is a module suite. In the menu, select ```Build``` option. Wait a minute or two. Speed will depend on your hardware configuration. You should see **BUILD SUCCESSFUL** message in Output section. If that is not the case, please check your Maven configuration.
+11. Now, you should ```Right Click``` on UML project, it is a module suite. In the menu, select ```Build``` option. Wait a minute or two. Speed will depend on your hardware configuration. You should see **BUILD SUCCESSFUL** message in Output section.
 10. To start the project, ```Right Click ```on UML project, and in the menu, select the ```Run``` option. By doing this, you will start a project, and you will see the easyUML graphical user interface.
 
 ####Alternative way to download the source code
