@@ -1,5 +1,5 @@
 
-# How to release new version of the plugin
+# Release procedure for new version of the plugin
 
 ###Building
 
