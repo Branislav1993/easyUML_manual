@@ -2,7 +2,7 @@
 
 # Modules overview
 
-**EasyUML** is module suite, and it consists of several modules:
+**EasyUML** consists of set of NetBeans modules:
 1.	dom4j
 2.	JavaParser
 3.	UMLCodeGenerator
