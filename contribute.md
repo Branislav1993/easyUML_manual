@@ -1,7 +1,7 @@
 
 # How to contribute
 
-For questions, suggestions and support, please contact Zoran at ```sevarac@fon.bg.ac.rs```.
+For questions, suggestions and support, please contact Zoran Sevarac at ```sevarac@gmail.com```.
 
 # Issues
 
