@@ -1,6 +1,6 @@
-# How To Download Source Code and build a project
+# Downloading and Building from Source Code
 
-The best way for you to download the source code is to use the NetBeans IDE.
+The best way for you to get the source code is to use the NetBeans IDE.
 
 First of all, fork the [repository](https://github.com/ossdcfos/easyuml). By doing this, you will get the copy of the project on your own profile.
 
