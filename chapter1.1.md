@@ -1,6 +1,6 @@
 
 
-# Project overview
+# Architecture overview
 
 **EasyUML** is module suite, and it consists of several modules:
 1.	dom4j
