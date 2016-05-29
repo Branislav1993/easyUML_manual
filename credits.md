@@ -10,8 +10,7 @@
 * Jelena Djordjevic, University of Belgrade, Faculty of Organizational Sciences
 
 ## Special Thanks
-* Geertjan Wielenga
-* NetBeans User Group
+* Geertjan Wielenga, NetBeans User Group
 
 
 
