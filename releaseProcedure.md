@@ -28,7 +28,7 @@ To make sure plugin has a non-empty author, **right click the project node** in 
 
 ###2. The plugin has description
 
-To provide at least short description of your plugin, **right click the project node** in the Explorer view and invoke **Properties** from its popup menu. Select **Display** category and write few words about your plugin to **Short Description** textfield. This will assure that module descriptor of your plugin``` (/Info/info.xml)``` will contain ```<module ...><manifest OpenIDE-Module-Short-Description="easyUML is simple, easy to use NetBeans UML Plugin"``` attribute.
+To provide at least short description of the plugin, **right click the project node** in the Explorer view and invoke **Properties** from its popup menu. Select **Display** category and write few words about plugin to **Short Description** textfield. This will assure that module descriptor of plugin``` (/Info/info.xml)``` will contain ```<module ...><manifest OpenIDE-Module-Short-Description="easyUML is simple, easy to use NetBeans UML Plugin"``` attribute.
 
 **Current values**
 
@@ -42,7 +42,7 @@ To provide at least short description of your plugin, **right click the project 
 
 ###3. The plugin has license
 
-Your plugin must bundle its license. In order to do this, create a text file with license terms e.g. My own license and invoke **Properties** action on your **plugin's project node**. Select **Build > Packaging** category and click **Browse** button to navigate to your **license file**. This will assure that module descriptor of your plugin ```(/Info/info.xml)``` will contain ```<module license="..."><license name="...">My own license</license>``` non-default license.
+Plugin must bundle its license. In order to do this, create a text file with license terms e.g. My own license and invoke **Properties** action on **plugin's project node**. Select **Build > Packaging** category and click **Browse** button to navigate to **license file**. This will assure that module descriptor of plugin ```(/Info/info.xml)``` will contain ```<module license="..."><license name="...">My own license</license>``` non-default license.
 
 **Current Licence location:** LICENSE-2.0.txt 
 
@@ -50,7 +50,7 @@ Your plugin must bundle its license. In order to do this, create a text file wit
 
 ###4. The plugin is signed
 
-Finally, your plugin **must** be signed. Plugin Portal considers your NBM signed if it finds ```/META-INF/<your_signature>.DSA``` (or ```/META-INF/<your_signature>.RSA```) and ```/META-INF/<your_signature>.SF``` files in it.
+Finally, plugin **must** be signed. Plugin Portal considers your NBM signed if it finds ```/META-INF/<your_signature>.DSA``` (or ```/META-INF/<your_signature>.RSA```) and ```/META-INF/<your_signature>.SF``` files in it.
 
 ####Signing steps:
 
