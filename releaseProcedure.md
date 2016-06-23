@@ -1,13 +1,10 @@
-
-#Release procedure for new version of the plugin
-
-##Publishing a plugin in Plugin Portal Update Center
+#Publishing a plugin in Plugin Portal Update Center
 
 Plugins that satisfy minimal [Quality Criteria](http://wiki.netbeans.org/PluginPortalQualityCriteria) and also meet basic [Update Center Requirements](http://wiki.netbeans.org/FaqPluginRequirements) can get to the official NetBeans Plugin Portal Update Center (PPUC).
 
 > To be able to publish a plugin on PPUC, plugin must be **verified**.
 
-###Procedure how to start verification process:
+##Procedure how to start verification process:
 
 1.	Make sure that plugin satisfies [Update Center Requirements](http://wiki.netbeans.org/FaqPluginRequirements) and also meets [Quality Criteria](http://wiki.netbeans.org/PluginPortalQualityCriteria)
 2.	[Login](https://netbeans.org/people/login) to netbeans.org website and go to the [NetBeans Plugin Portal](http://plugins.netbeans.org/PluginPortal)
@@ -18,7 +15,7 @@ Plugins that satisfy minimal [Quality Criteria](http://wiki.netbeans.org/PluginP
 
 More details can be found [HERE](http://wiki.netbeans.org/FaqPluginVerificationRequest).
 
-###Requirements for verification process:
+##Requirements for verification process:
 
 If you want to get plugin to the NetBeans [Plugin Portal Update Center](http://wiki.netbeans.org/FaqPluginUpdateCenter), plugin must successfully pass verification process. In order to ask for such verification, the plugin must satisfy the following requirements:
 
@@ -31,7 +28,7 @@ To make sure plugin has a non-empty author, **right click the project node** in 
 
 ###2. The plugin has description
 
-To provide at least short description of your plugin, **right click the project node** in the Explorer view and invoke **Properties** from its popup menu. Select **Display** category and write few words about your plugin to **Short Description** textfield. This will assure that module descriptor of your plugin``` (/Info/info.xml)``` will contain ```<module ...><manifest OpenIDE-Module-Short-Description="Online family members locator"``` attribute.
+To provide at least short description of your plugin, **right click the project node** in the Explorer view and invoke **Properties** from its popup menu. Select **Display** category and write few words about your plugin to **Short Description** textfield. This will assure that module descriptor of your plugin``` (/Info/info.xml)``` will contain ```<module ...><manifest OpenIDE-Module-Short-Description="easyUML is simple, easy to use NetBeans UML Plugin"``` attribute.
 
 **Current values**
 
@@ -55,7 +52,7 @@ Your plugin must bundle its license. In order to do this, create a text file wit
 
 Finally, your plugin **must** be signed. Plugin Portal considers your NBM signed if it finds ```/META-INF/<your_signature>.DSA``` (or ```/META-INF/<your_signature>.RSA```) and ```/META-INF/<your_signature>.SF``` files in it.
 
-###Signing steps:
+####Signing steps:
 
 1.	Create a keystore with **genkey** task.
 2.	Using the defined module list (```${modules}``` this is defined by the IDE itself) go to all your modules and add the **keystore location** and **alias information** in its ```nbproject/private/platform-private.properties``` file.
