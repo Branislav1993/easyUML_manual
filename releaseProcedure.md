@@ -60,4 +60,7 @@ Finally, your plugin **must** be signed. Plugin Portal considers your NBM signed
 
 Detailed information can be found [HERE](http://wiki.netbeans.org/DevFaqSignNbm#Isn.27t_there_an_easier_way.3F).
 
+##Changing the version of the module
+
+To change the version of the module, **right click the project node** in the Explorer view and invoke **Properties** from its popup menu. Select **API versioning** category and change **Specification version** to desired value.
 
